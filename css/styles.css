@@ -1,0 +1,208 @@
+/* JSG */
+body{
+    font-family: "Montserrat"; 
+    text-align: center;
+}
+/* section for heading */
+.big-heading
+{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat-Bold"; 
+}
+.title-hed
+{
+    text-align: left;
+}
+.section-heading
+{
+    font-size: 3rem;
+    line-height: 1.5; 
+}
+#title{
+    /* background-color:#ff4c68 ; */
+    padding: 3%  15%;
+    padding-bottom: 0%;
+    color: #fff;
+    margin-bottom: 0;
+    text-align: left;
+    /* position:relative;
+    z-index: -1; */
+   
+}
+.colored_section{
+   background-color: #ff4c68;
+}
+.white _section{
+    background-color: #fff;
+}
+    /* since here we are not able to add padding in container.fluid so i add padding in title sec */
+   
+    .navbar.jd{
+    /* background-color:#ff4c68 ; */
+}
+
+/* .container-fluid
+{
+    padding: 3% 45% ; 
+   
+} */
+/* Navigation-bar */
+.navbar{
+  /* padding-bottom: 14.5rem; */
+  margin-bottom: 2.5rem;
+ }
+.navbar-brand{
+    font-family: "Ubantu";
+    font-size:2.5rem;
+    font-weight :bold ;
+}
+.nav-item
+{
+    padding-left: 15px;
+ padding-right: 15px;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family:"Montserrat-Light" ;
+}
+/* Downloadbuttons */
+.download-button
+{
+    margin: 5% 3% 5% 0;
+}
+/* title-image */
+.title-image
+{
+    width: 60%;
+    transform:rotate(23deg);
+      position:static;
+      /* z-index: 0;  */
+      right: 30%;
+   
+}
+
+
+    
+/* Feature-section */
+#features
+{
+    /* padding: 7% 15%; */
+    /* padding-top: 0; */
+    /* margin-top: 0; */
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+
+}
+.feature-box
+{
+   text-align: center;
+   padding: 5%; 
+}
+.feature-title
+{
+    font-size: 1.5rem;
+}
+
+p{
+    color: #8f8f8f; 
+}
+.icon
+{
+   color: #ef8172;
+   margin-bottom: 1rem;
+
+}
+.icon:hover{
+    color :#ff4c68; 
+}
+/* testimonials */
+
+#testimonials
+{
+    /* padding:7% 1%; */
+    /* align-self: center; */
+    /* text-align: center; */
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/* testimonials-image */
+.testimonials-image
+{
+   width: 10%;
+   border-radius: 100%;
+   margin: 20px;
+}
+.testimonials-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* press */
+#press
+{
+    /* background-color: #ff4c68; */
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo
+{
+    width:15%;
+    margin:20px 20px 50px;
+}
+.jd1{
+   padding: 7% 15%; 
+}
+/* pricing */
+#pricing
+{
+    padding: 100px;
+}
+.pricing-col
+{
+   padding: 3% 2%; 
+   /* text-align: center; */
+}
+.price-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* media query */
+@media (max-width:1028px)
+{
+    #title
+    {
+        text-align:center;
+    }
+    .title-image
+    {
+        position: static;
+        transform:rotate(0deg);
+       
+    }
+}
+/* cta */
+#cta
+{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+    color: #fff;
+}
+
+/* footer */
+#footer{
+    /* padding: 7% 15%; */
+    text-align: center;
+}
+.social-icon
+{
+   margin: 20px 10px;
+}
